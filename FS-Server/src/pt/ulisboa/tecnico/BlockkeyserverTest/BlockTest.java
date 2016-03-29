@@ -22,7 +22,7 @@ public class BlockTest {
 		result = b.escreve(dado, 7, dado.length);
 		byte dado2[] = "def".getBytes();
 		result = b.escreve(dado2, 6, dado2.length);
-		System.out.println("Saida: " + new String(result));
+		//System.out.println("Saida: " + new String(result));
 		assertNotNull(result);
 	}
 
